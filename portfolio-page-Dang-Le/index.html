@@ -7,6 +7,7 @@
     <title>Portfolio Dang Le</title>
     <script src="https://kit.fontawesome.com/9226bb3867.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="luvScript.js"></script>
 </head>
 
 <body>
@@ -28,126 +29,141 @@
         </nav>
     </header>
 
-
-    <!-- Introduction -->
-    <section class="intro" id="home">
-        <div class="profile-photo"><img src="profile-photo.jpg" alt="profile photo"></div>
-        <h1 class="section__title section__title--intro">DANG LE</h1>
-        <p class="section__subtitle section__subtitle--intro">Engineering Graduate with expertise in Functional Materials, Product Design and Material Processing</p>
-        <ul class="intro-list">
-            <li class="intro-list__item"><a href="#about"><i class="fas fa-info-circle"></i><br>About</a></li>
-            <li class="intro-list__item"><a href="#skill"><i class="fas fa-toolbox"></i><br>My Skill</a></li>
-            <li class="intro-list__item"><a href="#cv"><i class="fas fa-file-pdf"></i><br>CV</a></li>
-            <li class="intro-list__item"><a href="#work"><i class="fas fa-dice-d6"></i><br>My Work</a></li>
-            <li class="intro-list__item"><a href="#contact"><i class="fas fa-envelope"></i><br>Contact</a></li>
-        </ul>
-    </section>
-
-
-    <!-- About Me -->
-    <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">About Me</h2>
-        <p>I recently graduate from <strong>Arcada University Of Applied Sciences </strong> in Helsinki, Finland. My degree program is called <strong>Materials Processing Technology</strong>. My study focuses on designing products based on the functionality
-            of the materials, and different manufacturing processes like injection molding and prepreg laminating. I gained most of my experience working in projects. The projects range from designing 3D object, making process analyses to manufacturing
-            actual products.<br><br> My biggest project so far is also my thesis topic: where I have to understand the principle and design a machine to improve the quality of Prepreg composite made from the lab. The result is a compact, easy to assemble
-            and affordable machine made from laser-cut MDF material, which is also highly rated by my mentor and colleagues.
-        </p>
-        <img src="Prepreg-machine-1.png" alt="prepreg machine">
-        <a href="#work" class="btn">See all my projects</a>
-    </section>
-
-    <!-- Skills -->
-    <section class="my-skill" id="skill">
-        <h2 class="section__title section__title--my-skill">My Skill</h2>
-        <p class="section__subtitle section__subtitle--my-skill">Something about software and hardware work together</p>
-
-        <div class="skill">
-            <h3>Software</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dignissim neque et lobortis. Suspendisse in mi tincidunt, volutpat dolor sit amet, mollis sapien. Praesent luctus lacus at condimentum placerat. Vivamus sed varius ante. Nunc
-                at condimentum metus, maximus venenatis velit.</p>
-            <ul class="skill-list">
-                <li class="skill-list__item"><img src="solidworks.png">SolidWorks</li>
-                <li class="skill-list__item"><img src="autocad.jpg">AutoCAD</li>
-                <li class="skill-list__item"><img src="fusion360.jpg">Fusion 360</li>
+    <div class="content">
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <div class="profile-photo"><img src="profile-photo1.jpg" alt="profile photo"></div>
+            <h1 class="section__title section__title--intro">Hi, I'm <br> DANG LE</h1>
+            <p class="section__subtitle section__subtitle--intro">An Engineering Graduate with expertise in Functional Materials, Product Design and Material Processing</p>
+            <ul class="intro-list">
+                <li class="intro-list__item"><a href="#about"><i class="fas fa-info-circle"></i><br>About</a></li>
+                <li class="intro-list__item"><a href="#skill"><i class="fas fa-toolbox"></i><br>My Skill</a></li>
+                <li class="intro-list__item"><a href="#cv"><i class="fas fa-file-pdf"></i><br>CV</a></li>
+                <li class="intro-list__item"><a href="#work"><i class="fas fa-dice-d6"></i><br>My Work</a></li>
+                <li class="intro-list__item"><a href="#contact"><i class="fas fa-envelope"></i><br>Contact</a></li>
             </ul>
-        </div>
+        </section>
 
-        <div class="skill">
-            <h3>Machinery</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dignissim neque et lobortis. Suspendisse in mi tincidunt, volutpat dolor sit amet, mollis sapien. Praesent luctus lacus at condimentum placerat. Vivamus sed varius ante. Nunc
+
+        <!-- About Me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p>I recently graduate from <strong>Arcada University Of Applied Sciences </strong> in Helsinki, Finland. My degree program is called <strong>Materials Processing Technology</strong>. My study focuses on designing products based on the functionality
+                of the materials, and different manufacturing processes like injection molding and prepreg laminating. I gained most of my experience working in projects. The projects range from designing 3D object, making process analyses to manufacturing
+                actual products.<br><br> My biggest project so far is also my thesis topic: where I have to understand the principle and design a machine to improve the quality of Prepreg composite made from the lab. The result is a compact, easy to assemble
+                and affordable machine made from laser-cut MDF material, which is also highly rated by my mentor and colleagues.
+            </p>
+            <div class="demo-work">
+                <img src="Prepreg-machine-1.png" alt="prepreg machine">
+                <a href="#work" class="btn">See all my projects</a>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="my-skill" id="skill">
+            <h2 class="section__title section__title--my-skill">My Skill</h2>
+            <p class="section__subtitle section__subtitle--my-skill">Over the time that I have in Arcada University, I got a chance to understand the industrial process of making products, and took part in two of the most essential: the design process and manufacturing process. Understanding the strong connection
+                between software and hardware, I have been trying and implementing new software into my workflow, while continuously improving my skill with the commonly-known software that I have been using.</p>
+
+            <div class="software">
+                <h3>Software</h3>
+                <p>As an engineer, it is essential to train my mind to visualize every objects in 2D or 3D. I mainly used SolidWorks and AutoCAD to design the products, while Fusion360 and Blender are occasionally used in prototyping or for simpler shapes.
+                    Then some analyses can be done by either Mastercam or Moldflow, depend on the machinery used to make the parts. This step can provide the baseline parameters to experiment while running the machines. </p>
+
+                <div class="skill-list">
+                    <div class="skill-list__item"><img src="solidworks.png">SolidWorks</div>
+                    <div class="skill-list__item"><img src="autocad.jpg">AutoCAD</div>
+                    <div class="skill-list__item"><img src="fusion360.jpg">Fusion 360</div>
+                    <div class="skill-list__item"><img src="blender.png">Blender</div>
+                    <div class="skill-list__item"><img src="mastercam.png">Mastercam</div>
+                    <div class="skill-list__item"><img src="Moldflow-logo.png">Moldflow</div>
+                </div>
+            </div>
+
+            <div class="hardware">
+                <h3>Machinery</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dignissim neque et lobortis. Suspendisse in mi tincidunt, volutpat dolor sit amet, mollis sapien. Praesent luctus lacus at condimentum placerat. Vivamus sed varius ante.
+                    Nunc at condimentum metus, maximus venenatis velit.</p>
+                <ul class="skill-list">
+                    <li class="skill-list__item"><img src="additive_manufacturing.jpg">Additive Manufacturing</li>
+                    <li class="skill-list__item"><img src="injection-molding.jpg">Injection Molding</li>
+                    <li class="skill-list__item"><img src="prepreg.jpg">Prepreg Manufacturing</li>
+                    <li class="skill-list__item"><img src="CNCmilling.png">CNC Milling</li>
+                </ul>
+            </div>
+
+        </section>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work"> My Work </h2>
+            <p class="section__subtitle section__subtitle--work">Here are all the projects of mine. You can click on the figure for more information.</p>
+            <div class="work">
+                <div class="work__link">
+                    <a href="#" class="work__item">
+                        <img src="Prepreg-machine-1.png" alt="" class="work__img">
+                    </a>
+                    <div class="desc">Prepreg Machine</div>
+                </div>
+
+                <div class="work__link">
+                    <a href="javascript:;" class="work__item">
+                        <img src="Mountainboard.png" alt="" class="work__img" onmouseover="switchIn(event)" onmouseout="switchOut(event)" link-zero="Mountainboard.png" link-one="Mountainboard-hover1.png" link-two="Mountainboard-hover2.png">
+                    </a>
+                    <div class="desc">Mountainboard</div>
+                </div>
+
+                <div class="work__link">
+                    <a href="javascript:;" class="work__item">
+                        <img src="mastercam-mold.png" alt="" class="work__img">
+                    </a>
+                    <div class="desc">Mastercam Milling Analysis</div>
+
+                </div>
+
+                <div class="work__link">
+                    <a href="#" class="work__item">
+                        <img src="moldflow.png" alt="" class="work__img">
+                    </a>
+                    <div class="desc">Moldflow Analysis</div>
+                </div>
+
+                <div class="work__link">
+                    <a href="#" class="work__item">
+                        <img src="Mug.jpg" alt="" class="work__img">
+                    </a>
+                    <div class="desc">3D Printing Mug</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="contact" id="contact">
+            <h2 class="section__title section__title--contact">Talk to me!</h2>
+            <p class="section__subtitle section__subtitle--contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dignissim neque et lobortis. Suspendisse in mi tincidunt, volutpat dolor sit amet, mollis sapien. Praesent luctus lacus at condimentum placerat. Vivamus sed varius ante. Nunc
                 at condimentum metus, maximus venenatis velit.</p>
-            <ul class="skill-list">
-                <li class="skill-list__item">Additive Manufacturing</li>
-                <li class="skill-list__item">Injection Molding</li>
-                <li class="skill-list__item">Prepreg Manufacturing</li>
+
+
+            <ul class="language">
+                <li class="language__item"><img src="vietnam.png">Vietnamese</li>
+                <li class="language__item"><img src="england.png">English</li>
+                <li class="language__item"><img src="Finland.png">Finnish</li>
+                <li class="language__item"><img src="germany.png">German</li>
             </ul>
-        </div>
 
-    </section>
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com"><i class="fab fa-github"></i></a>
+                </li>
+            </ul>
 
-    <!-- My Work -->
-    <section class="my-work" id="work">
-        <h2 class="section__title section__title--work"> My Work </h2>
-        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
-        <div class="portfolio">
-
-            <a href="#" class="portfolio__item">
-                <img src="Prepreg-machine-1.png" alt="" class="portfolio__img">
-                <p>Prepreg Machine</p>
-            </a>
-
-
-            <a href="#" class="portfolio__item">
-                <img src="Mountainboard .png" alt="" class="portfolio__img">
-                <p>Mountainboard</p>
-            </a>
-
-
-            <a href="#" class="portfolio__item">
-                <img src="mastercam-mold.png" alt="" class="portfolio__img">
-                <p>Mastercam Milling Analysis</p>
-            </a>
-
-
-            <a href="#" class="portfolio__item">
-                <img src="moldflow.png" alt="" class="portfolio__img">
-                <p>Moldflow Analysis</p>
-            </a>
-
-            <a href="#" class="portfolio__item">
-                <img src="Mug.jpg" alt="" class="portfolio__img">
-                <p>Mug</p>
-            </a>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section class="contact" id="contact">
-        <h2 class="section__title section__title--contact">Talk to me!</h2>
-        <p class="section__subtitle section__subtitle--contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dignissim neque et lobortis. Suspendisse in mi tincidunt, volutpat dolor sit amet, mollis sapien. Praesent luctus lacus at condimentum placerat. Vivamus sed varius ante. Nunc
-            at condimentum metus, maximus venenatis velit.</p>
-
-
-        <ul class="language">
-            <li class="language__item"><img src="vietnam.png">Vietnamese</li>
-            <li class="language__item"><img src="england.png">English</li>
-            <li class="language__item"><img src="Finland.png">Finnish</li>
-            <li class="language__item"><img src="germany.png">German</li>
-        </ul>
-
-        <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="https://codepen.io"><i class="fab fa-codepen"></i></a>
-            </li>
-            <li class="social-list__item"><a class="social-list__link" href="https://facebook.com"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li class="social-list__item"><a class="social-list__link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li class="social-list__item"><a class="social-list__link" href="https://github.com"><i class="fab fa-github"></i></a>
-            </li>
-        </ul>
-
-    </section>
+        </section>
+    </div>
 
 
 
