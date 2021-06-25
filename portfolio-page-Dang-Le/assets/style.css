@@ -312,7 +312,7 @@ a {
     transform: scale(1.1);
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1280px) {
     .about-me {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -393,7 +393,7 @@ a {
     margin-bottom: 1em;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1280px) {
     .my-skill {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -463,12 +463,46 @@ a {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1280px) {
     .work__link {
         width: 23.99999%;
         float: left;
     }
     .desc {
         font-size: 1.2rem;
+    }
+}
+
+
+/* Footer */
+
+@media (min-width: 1280px) {
+    .section-footer {
+        display: flex;
+        flex-direction: row;
+    }
+    .section-footer .footer-main {
+        flex: 4;
+    }
+    .section-footer .buffer {
+        flex: 0.5;
+    }
+    .language {
+        display: flex;
+        flex-direction: row;
+        justify-items: space-around;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .language .language__item {
+        flex: 1;
+        display: flex;
+        flex: row;
+        align-items: center;
+    }
+    .language .language__item img {
+        width: 3em;
+        height: 3em;
+        margin-right: 1em;
     }
 }
