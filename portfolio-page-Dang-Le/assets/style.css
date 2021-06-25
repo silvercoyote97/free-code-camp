@@ -487,22 +487,27 @@ a {
     .section-footer .buffer {
         flex: 0.5;
     }
-    .language {
+    .footer-columns {
         display: flex;
-        flex-direction: row;
-        justify-items: space-around;
-        padding-left: 100px;
-        padding-right: 100px;
     }
-    .language .language__item {
+    .footer-col {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer .footer__item {
         flex: 1;
         display: flex;
         flex: row;
         align-items: center;
     }
-    .language .language__item img {
+    .footer .footer__item img {
         width: 3em;
         height: 3em;
         margin-right: 1em;
+    }
+    .footer .footer__item a {
+        font-size: var(--fs-h3);
     }
 }
