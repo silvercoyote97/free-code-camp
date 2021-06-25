@@ -11,6 +11,7 @@
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
     --fw-reg: 200;
+    --fw-half-reg: 400;
     --fw-bold: 900;
     --clr-light: #fff;
     --clr-dark: #303030;
@@ -256,36 +257,28 @@ a {
     max-width: 100px;
 }
 
-@media (min-width: 800px) {
-    .profile-photo {
-        grid-area: photo;
-        width: 500px;
-        height: auto;
-        margin: 0 0 0 0;
-        /* width: 80%; */
-    }
-    .section__title--intro {
-        grid-area: intro;
-        text-align: left;
-        padding-top: 50px;
-        padding-left: 50px;
-    }
-    .section__subtitle--intro {
-        grid-area: subtitle;
-        text-align: left;
-        padding-left: 50px;
-        padding-top: 0px;
-    }
-    .intro-list {
-        grid-area: intro-list;
-        justify-content: space-evenly;
-    }
+@media (min-width: 1280px) {
+    /* New style in flex*/
     .intro {
-        display: grid;
-        padding-top: 0px;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto auto auto;
-        grid-template-areas: "photo intro" "photo intro" "photo subtitle" "intro-list intro-list";
+        padding-top: 0;
+    }
+    .intro-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .profile-photo {
+        flex: 1;
+    }
+    .profile-section {
+        flex: 3
+    }
+    .buffer {
+        flex: 0.5
+    }
+    .small-text {
+        font-size: var(--fs-h2);
+        font-weight: var(--fw-half-reg);
     }
 }
 
