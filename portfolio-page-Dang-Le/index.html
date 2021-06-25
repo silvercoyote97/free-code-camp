@@ -11,6 +11,47 @@
 </head>
 
 <body>
+    <div id="prePreg" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('prePreg')">&times;</span>
+            <span class="content"> <img src="assets/Prepreg-machine-1.png" alt="prepreg machine">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id semper augue, at lobortis lorem. Aenean ac rhoncus lectus, nec fermentum mauris. Sed eleifend augue urna, in dictum eros volutpat nec. Cras cursus accumsan neque sit amet sodales. Integer porta lacus a leo pulvinar, at malesuada sem vulputate. Aenean accumsan, turpis vel placerat maximus, lacus ex lobortis enim, id sollicitudin sem mauris ac sapien. Pellentesque fringilla orci libero, feugiat pharetra sem vehicula ut. Maecenas ut ultrices odio, at pulvinar nunc. Phasellus sed ex ac nisl pharetra maximus non id justo. Praesent in ex felis. Nunc nisi diam, porttitor a nisi id, lacinia auctor velit. Fusce lacinia pharetra elit vitae sollicitudin. Pellentesque risus dui, porttitor vitae purus vitae, consectetur convallis arcu. Cras scelerisque feugiat orci, semper egestas ligula suscipit id.</p></span>
+        </div>
+    </div>
+    <div id="mountainBoard" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('mountainBoard')">&times;</span>
+            <span class="content"><img src="assets/Mountainboard.png" alt="" class="work__img" onmouseover="switchIn(event)" onmouseout="switchOut(event)" link-zero="assets/Mountainboard.png" link-one="assets/Mountainboard-hover1.png" link-two="assets/Mountainboard-hover2.png">
+                <p>mountainBoard</p>
+            </span>
+
+        </div>
+    </div>
+    <div id="milling" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('milling')">&times;</span>
+            <span class="content"><img src="assets/mastercam-mold.png" alt="" class="work__img">
+                <p>milling</p>
+            </span>
+        </div>
+    </div>
+    <div id="moldflow" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('moldflow')">&times;</span>
+            <span class="content"><img src="assets/moldflow.png" alt="" class="work__img">
+                <p>moldflow</p>
+            </span>
+        </div>
+    </div>
+    <div id="printing" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal('printing')">&times;</span>
+            <span class="content"> <img src="assets/Mug.jpg" alt="" class="work__img mug">
+                <p>printing</p>
+            </span>
+        </div>
+    </div>
     <header>
         <div class="logo">
             <img src="assets/logo.png" alt="Dang Le logo">
@@ -106,21 +147,21 @@
             <p class="section__subtitle section__subtitle--work">Here are all the projects of mine. You can click on the figure for more information.</p>
             <div class="work">
                 <div class="work__link">
-                    <a href="#" class="work__item">
+                    <a href="javascript:;" class="work__item" onclick="openModal('prePreg')">
                         <img src="assets/Prepreg-machine-1.png" alt="" class="work__img">
                     </a>
                     <div class="desc">Prepreg Machine</div>
                 </div>
 
                 <div class="work__link">
-                    <a href="javascript:;" class="work__item">
+                    <a href="javascript:;" class="work__item" onclick="openModal('mountainBoard')">
                         <img src="assets/Mountainboard.png" alt="" class="work__img" onmouseover="switchIn(event)" onmouseout="switchOut(event)" link-zero="assets/Mountainboard.png" link-one="assets/Mountainboard-hover1.png" link-two="assets/Mountainboard-hover2.png">
                     </a>
                     <div class="desc">Mountainboard</div>
                 </div>
 
                 <div class="work__link">
-                    <a href="javascript:;" class="work__item">
+                    <a href="javascript:;" class="work__item" onclick="openModal('milling')">
                         <img src="assets/mastercam-mold.png" alt="" class="work__img">
                     </a>
                     <div class="desc">Mastercam Milling Analysis</div>
@@ -128,14 +169,14 @@
                 </div>
 
                 <div class="work__link">
-                    <a href="#" class="work__item">
+                    <a href="javascript:;" class="work__item" onclick="openModal('moldflow')">
                         <img src="assets/moldflow.png" alt="" class="work__img">
                     </a>
                     <div class="desc">Moldflow Analysis</div>
                 </div>
 
                 <div class="work__link">
-                    <a href="#" class="work__item">
+                    <a href="javascript:;" class="work__item" onclick="openModal('printing')">
                         <img src="assets/Mug.jpg" alt="" class="work__img">
                     </a>
                     <div class="desc">3D Printing Mug</div>
@@ -149,7 +190,7 @@
             <div class='buffer'></div>
             <div class='footer-main'>
                 <div class='footer-text'>
-                    <h2 class="section__title section__title--contact">Talk to me!</h2>
+                    <h2 class="section__title section__title--contact">Talk to me</h2>
                     <p class="section__subtitle section__subtitle--contact">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dignissim neque et lobortis. Suspendisse in mi tincidunt, volutpat dolor sit amet, mollis sapien. Praesent luctus lacus at condimentum placerat. Vivamus sed varius
                         ante. Nunc at condimentum metus, maximus venenatis velit.</p>
                 </div>
